@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, TextInput, TouchableOpacity,Alert, ImageBackground} from 'react-native';
 import {firebaseApp} from './FirebaseConfig';
 
+
 const image = require('../backgroundImage/hinhnen.jpg')
 
 export default class Register extends Component{

@@ -48,7 +48,7 @@ export default class Login extends Component{
                 ],
                 { cancelable: false }
               )
-          });debugger;
+          });
     }
     render(){
         const {navigate} = this.props.navigation;
